@@ -1,0 +1,23 @@
+//Footer
+.footer{
+    background-color: $maincolor4;
+    width: 100%;
+    height: 100px;
+    footer{
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        i{
+            color: $maincolor1;
+            font-size: 1.2em;
+            margin-top: 40px;
+            a{
+                color: $maincolor1;
+                &:hover{
+                    color: $maincolor3
+                }
+            }
+        }
+    }
+}

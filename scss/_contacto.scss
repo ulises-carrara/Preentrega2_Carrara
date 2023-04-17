@@ -1,0 +1,11 @@
+.bg-form{
+    background-color: $maincolor2;
+}
+.btn-form{
+    background-color: $maincolor1;
+    color: $maincolor4;
+    &:hover{
+        background-color: $maincolor4;
+        color: $maincolor1;
+    }
+}

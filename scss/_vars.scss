@@ -1,0 +1,58 @@
+$maincolor1: #200e38;
+$maincolor2: #ff0d66;
+$maincolor3: #b50d57;
+$maincolor4: #dec790;
+$mainfont: 'Playfair Display';
+$h1: 3em;
+$h2: 2.5em;
+$h3: 2em;
+$p: 1.5em;
+body{
+    background-color: $maincolor1;
+    font-family: $mainfont;
+}
+h1{
+    color: $maincolor3;
+    font-weight: 400;
+    font-size: $h1;
+}
+h2{
+    color: $maincolor3;
+    font-weight: 400;
+    font-size: $h2;
+}
+h3{
+    color: $maincolor3;
+    font-weight: 400;
+    font-size: $h3;
+}
+p{
+    color: $maincolor2;
+    font-size: $p;
+    line-height: 1.7em;
+}
+label{
+    color: $maincolor1;
+    font-size: 1.3em;
+}
+button{
+    border: none;
+    background-color:transparent;
+    cursor: pointer;
+    color: $maincolor1;
+    font-size: 1.2em;
+    text-decoration: underline $maincolor3;
+}
+main{
+    background-color: $maincolor1;
+}
+.hover{
+    &:hover{
+    background-color: $maincolor2;
+    }
+}
+.card{
+    &:hover{
+    border: solid 1px #b50d57;
+    }
+}
